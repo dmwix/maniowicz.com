@@ -1,2 +1,2 @@
 # maniowicz.com
-my personal website/portfolio
+my personal website/portfolio [MANIOWICZ](https://maniowicz.com)
