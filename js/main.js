@@ -39,7 +39,7 @@ for (i = 0; i < acc.length; i++) {
 
 let currentUrl = window.location.pathname;
 
-let navLinks = document.querySelectorAll('desktop-menu nav a');
+let navLinks = document.querySelectorAll('.desktop-menu ul a');
 navLinks.forEach(link => {
   if(link.href.includes(`${currentUrl}`)) {
     link.closest('li').classList.add('current-menu-item');
