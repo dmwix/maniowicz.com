@@ -9,13 +9,18 @@ window.addEventListener('resize', () => {
 });
 
 function openNav() {
-    document.getElementById("fullscreen-menu").style.display = "block";
+  document.getElementById("fullscreen-menu").style.display = "block";
 }
-  
+
+const openMenu = document.getElementById('open-menu');
+openMenu.addEventListener('click', openNav);
+
 function closeNav() {
-    document.getElementById("fullscreen-menu").style.display = "none";
+  document.getElementById("fullscreen-menu").style.display = "none";
 }
-  
+
+const closeMenu = document.getElementById('close-menu');
+closeMenu.addEventListener('click', closeNav);  
 
 let acc = document.getElementsByClassName("accordion");
 let i;
@@ -31,3 +36,12 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+let currentUrl = window.location.pathname;
+
+let navLinks = document.querySelectorAll('desktop-menu nav a');
+navLinks.forEach(link => {
+  if(link.href.includes(`${currentUrl}`)) {
+    link.closest('li').classList.add('current-menu-item');
+  };
+})
