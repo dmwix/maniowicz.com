@@ -34,7 +34,7 @@ body {
 
 header {
   padding: 20px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -42,7 +42,7 @@ header {
 
 @media only screen and (min-width: 961px) {
   header {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -126,7 +126,7 @@ footer {
   width: 100%;
   padding: 20px;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   align-self: flex-end;
   display: flex;
 }
@@ -192,7 +192,7 @@ footer address {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: normal;
   margin: 0;
 }
@@ -291,7 +291,7 @@ address a:hover {
   .main-home {
     padding-top: 20px;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.8rem;
     justify-content: left;
     text-align: left;
   }
