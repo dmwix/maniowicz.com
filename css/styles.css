@@ -48,7 +48,7 @@ header {
 
 #logo a {
   letter-spacing: normal;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 
 #logo a:hover {
