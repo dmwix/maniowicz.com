@@ -1,11 +1,6 @@
 /* general rules */
 
-@font-face {
-  font-family: "ambitregular";
-  src: url("../fonts/ambit-regular-webfont.woff2") format("woff2"),
-    url("../fonts/ambit-regular-webfont.woff") format("woff"),
-    url("../fonts/ambit-regular-webfont.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
 
 * {
   margin: 0;
@@ -19,7 +14,7 @@
 }
 
 body {
-  font-family: "ambitregular";
+  font-family: "Figtree", sans-serif;
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
